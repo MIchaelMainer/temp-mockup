@@ -4,7 +4,7 @@ _Applies to: Excel 2016, Office 2016_
 
 Represents the Excel application that manages the workbook.
 
-**Minimum requirement set:** WordApi 1.1
+**[Minimum requirement set](https://msdn.microsoft.com/en-us/library/office/mt590206.aspx):** WordApi 1.1
 
 ## Properties
 
