@@ -8,7 +8,7 @@ Represents the Excel application that manages the workbook.
 
 ## Properties
 
-| Property	   | Type	|Description | Minimum requirement set |
+| Property	   | Type	|Description | [Minimum requirement set](https://msdn.microsoft.com/en-us/library/office/mt590206.aspx) |
 |:---------------|:--------|:----------|:-----|
 |calculationMode|string|Returns the calculation mode used in the workbook. Read-only. Possible values are: `Automatic` Excel controls recalculation,`AutomaticExceptTables` Excel controls recalculation but ignores changes in tables.,`Manual` Calculation is done when the user requests it. | WordApi 1.1; requirement set 1.1 supports getting this property, 1.2 supports setting this property.|
 
@@ -20,7 +20,7 @@ None
 
 ## Methods
 
-| Method		   | Return Type	| Description | Minimum requirement set |
+| Method		   | Return Type	| Description | [Minimum requirement set](https://msdn.microsoft.com/en-us/library/office/mt590206.aspx) |
 |:---------------|:--------|:----------|:-----|
 |[calculate(calculationType: string)](#calculatecalculationtype-string)|void|Recalculate all currently opened workbooks in Excel.| WordApi 1.1 |
 |[load(param: object)](#loadparam-object)|void|Fills the proxy object created in JavaScript layer with property and object values specified in the parameter.| WordApi 1.1 |
