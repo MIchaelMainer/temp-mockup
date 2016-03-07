@@ -4,13 +4,13 @@ _Applies to: Excel 2016, Office 2016_
 
 Represents the Excel application that manages the workbook.
 
-**Requirement set:** 1.1
+**Minimum requirement set:** WordApi 1.1
 
 ## Properties
 
 | Property	   | Type	|Description
 |:---------------|:--------|:----------|
-|calculationMode|string|Returns the calculation mode used in the workbook. Read-only. Possible values are: `Automatic` Excel controls recalculation,`AutomaticExceptTables` Excel controls recalculation but ignores changes in tables.,`Manual` Calculation is done when the user requests it. <br/><br/> **Requirement set:** 1.1; requirement set 1.1 supports getting this property, 1.2 supports setting this property.|
+|calculationMode|string|Returns the calculation mode used in the workbook. Read-only. Possible values are: `Automatic` Excel controls recalculation,`AutomaticExceptTables` Excel controls recalculation but ignores changes in tables.,`Manual` Calculation is done when the user requests it. <br/><br/> **Minimum requirement set:** WordApi 1.1; requirement set 1.1 supports getting this property, 1.2 supports setting this property.|
 
 _See property access [examples.](#property-access-examples)_
 
@@ -31,7 +31,7 @@ None
 ### calculate(calculationType: string)
 Recalculate all currently opened workbooks in Excel.
 
-**Requirement set:** 1.1
+**Minimum requirement set:** WordApi 1.1
 
 #### Syntax
 ```js
@@ -64,7 +64,7 @@ Excel.run(function (ctx) {
 ### load(param: object)
 Fills the proxy object created in JavaScript layer with property and object values specified in the parameter.
 
-**Requirement set:** 1.1
+**Minimum requirement set:** WordApi 1.1
 
 #### Syntax
 ```js
