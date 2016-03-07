@@ -10,7 +10,7 @@ Represents the Excel application that manages the workbook.
 
 | Property	   | Type	|Description
 |:---------------|:--------|:----------|
-|calculationMode|string|Returns the calculation mode used in the workbook. Read-only. Possible values are: `Automatic` Excel controls recalculation,`AutomaticExceptTables` Excel controls recalculation but ignores changes in tables.,`Manual` Calculation is done when the user requests it. **Requirement set:** 1.1; requirement set 1.1 supports getting this property, 1.2 supports setting this property.|
+|calculationMode|string|Returns the calculation mode used in the workbook. Read-only. Possible values are: `Automatic` Excel controls recalculation,`AutomaticExceptTables` Excel controls recalculation but ignores changes in tables.,`Manual` Calculation is done when the user requests it. <br/><br/> **Requirement set:** 1.1; requirement set 1.1 supports getting this property, 1.2 supports setting this property.|
 
 _See property access [examples.](#property-access-examples)_
 
